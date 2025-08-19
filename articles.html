@@ -1,29 +1,70 @@
 
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
-  <title>مقالات - صحة قلبك</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صحة قلبك</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <header><h1>مقالات طبية</h1></header>
-  
-<nav>
-  <a href="index.html">الرئيسية</a>
-  <a href="about.html">من نحن</a>
-  <a href="articles.html">مقالات</a>
-  <a href="contact.html">تواصل معنا</a>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">صحة قلبك</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">من نحن</a></li>
+        <li class="nav-item"><a class="nav-link" href="articles.html">مقالات</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">تواصل معنا</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
-  <div class="container">
-    <h2>آخر المقالات</h2>
-    <ul>
-      <li>أطعمة مفيدة لصحة القلب</li>
-      <li>أسباب وأعراض قصور الشرايين التاجية</li>
-      <li>طرق الوقاية من الجلطات</li>
-    </ul>
+<div class="container my-5">
+  <h2 class="text-center">مقالات ونصائح</h2>
+  <div class="row mt-4">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">كيف تحافظ على قلبك؟</h5>
+          <p class="card-text">اتباع نظام غذائي صحي، ممارسة الرياضة بانتظام، وتجنب التدخين.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">أعراض الذبحة الصدرية</h5>
+          <p class="card-text">ألم أو ضغط في الصدر، ضيق في التنفس، وأحياناً انتشار الألم للذراع أو الرقبة.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">أهمية الفحص المبكر</h5>
+          <p class="card-text">الفحص المبكر يساعد على اكتشاف مشاكل القلب قبل تفاقمها.</p>
+        </div>
+      </div>
+    </div>
   </div>
-  <footer>جميع الحقوق محفوظة © 2025 - صحة قلبك</footer>
+</div>
+
+<footer>
+  <p>© 2025 صحة قلبك - جميع الحقوق محفوظة</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
