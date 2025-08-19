@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صحة قلبك</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9fafb; color:#333; }
+    header { background:#fff; border-bottom:1px solid #ddd; position:sticky; top:0; z-index:10; }
+    header nav { max-width:1200px; margin:auto; display:flex; justify-content:space-between; align-items:center; padding:10px 20px; }
+    nav a { margin:0 10px; text-decoration:none; color:#333; }
+    nav a:hover { color:#e63946; }
+    .hero { padding:60px 20px; background:linear-gradient(to right,#fff,#f0f4f8); text-align:center; }
+    .hero h1 { font-size:2.2rem; line-height:1.4; }
+    .hero p { max-width:600px; margin:15px auto; color:#555; }
+    .btn { display:inline-block; padding:10px 20px; margin:5px; border-radius:25px; text-decoration:none; font-size:14px; }
+    .btn-primary { background:#e63946; color:#fff; }
+    .btn-outline { border:1px solid #e63946; color:#e63946; }
+    section { max-width:1200px; margin:auto; padding:50px 20px; }
+    h2 { font-size:1.8rem; margin-bottom:20px; }
+    .grid { display:grid; gap:20px; }
+    .grid-2 { grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); }
+    .grid-3 { grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); }
+    .card { background:#fff; border:1px solid #eee; border-radius:15px; padding:20px; box-shadow:0 2px 6px rgba(0,0,0,0.05); }
+    footer { background:#fff; border-top:1px solid #ddd; padding:20px; text-align:center; font-size:14px; color:#555; }
+    input, textarea { width:100%; padding:10px; margin:5px 0; border:1px solid #ddd; border-radius:8px; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div><strong>صحة قلبك ❤️</strong></div>
+      <div>
+        <a href="#about">من نحن</a>
+        <a href="#services">خدمات</a>
+        <a href="#articles">مقالات</a>
+        <a href="#tips">نصائح</a>
+        <a href="#contact">تواصل</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>اعتنِ بقلبك اليوم… ليمنحك حياةً أطول وغدًا أروع</h1>
+    <p>"صحة قلبك" منصة تثقيفية يقدمها فريق مختص في أمراض وجراحة القلب والصدر — معلومات موثوقة مبسطة، خطط حياة صحية، وإرشاد متى تحتاج لزيارة الطبيب.</p>
+    <a href="#articles" class="btn btn-primary">ابدأ القراءة</a>
+    <a href="#contact" class="btn btn-outline">تواصل معنا</a>
+  </section>
+
+  <section id="about">
+    <h2>من نحن</h2>
+    <p>فريق طبي يقوده مختصون في أمراض وجراحة القلب والصدر. رؤيتنا: مجتمع عربي يفهم صحة القلب بلغته البسيطة. رسالتنا: تحويل العلم إلى خطوات عملية.</p>
+  </section>
+
+  <section id="services">
+    <h2>ماذا نقدم؟</h2>
+    <div class="grid grid-3">
+      <div class="card"><h3>مقالات مبسطة</h3><p>مفاهيم سريعة حول ضغط الدم، الكوليسترول، الذبحة الصدرية…</p></div>
+      <div class="card"><h3>أدلة عملية</h3><p>جداول غذاء ونشاط بدني وقوائم تسوق صحية.</p></div>
+      <div class="card"><h3>أسئلة وأجوبة</h3><p>إجابات مبسطة على أكثر الأسئلة شيوعًا.</p></div>
+    </div>
+  </section>
+
+  <section id="articles">
+    <h2>مقالات مختارة</h2>
+    <div class="grid grid-3">
+      <div class="card"><h3>كيف تفرّق بين ألم القلب وألم العضلات؟</h3><a href="#" class="btn btn-outline">اقرأ الآن</a></div>
+      <div class="card"><h3>أدوية ضغط الدم: متى تؤخذ صباحًا أو مساءً؟</h3><a href="#" class="btn btn-outline">اقرأ الآن</a></div>
+      <div class="card"><h3>الدهون الثلاثية: خطة 4 أسابيع للتحكم</h3><a href="#" class="btn btn-outline">اقرأ الآن</a></div>
+    </div>
+  </section>
+
+  <section id="tips">
+    <h2>نصائح سريعة لصحة القلب</h2>
+    <ul>
+      <li>30 دقيقة مشي سريع 5 أيام أسبوعيًا تُخفض ضغط الدم تدريجيًا.</li>
+      <li>قلل الملح إلى أقل من 5 غرامات يوميًا (حوالي ملعقة شاي صغيرة).</li>
+      <li>أضف الأسماك الدهنية مرتين أسبوعيًا.</li>
+      <li>نم 7–8 ساعات يوميًا لصحة القلب.</li>
+      <li>لا تُهمل ألم الصدر أو ضيق النفس—اطلب الطوارئ فورًا.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>تواصل معنا</h2>
+    <form>
+      <input type="text" placeholder="الاسم الكامل">
+      <input type="email" placeholder="البريد الإلكتروني">
+      <input type="text" placeholder="رقم الهاتف (اختياري)">
+      <textarea placeholder="اكتب رسالتك…"></textarea>
+      <button class="btn btn-primary" type="submit">إرسال الرسالة</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 صحة قلبك — للتثقيف فقط | <a href="#">سياسة الخصوصية</a></p>
+  </footer>
+</body>
+</html>
